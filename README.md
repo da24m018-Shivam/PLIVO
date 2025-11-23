@@ -71,7 +71,7 @@ python src/generate_synthetic_data.py --gen-train --gen-dev
 
 After testing DistilBERT, BERT-base, and RoBERTa-base, the final selected model is:
 
-⭐ **roberta-large**
+⭐ **RoBERTa-base**
 
 - Highest PII F1 among tested models
 - Latency still meets assignment constraints
@@ -85,7 +85,7 @@ After testing DistilBERT, BERT-base, and RoBERTa-base, the final selected model 
 Runs a standard token classification fine-tuning loop:
 
 - Batch size: 32
-- Epochs: 13
+- Epochs: 12
 - LR: 2e-5
 - Max length: 128
 - Warmup + linear scheduler
