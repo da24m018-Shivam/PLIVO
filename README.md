@@ -215,6 +215,5 @@ python src/eval_span_f1.py --gold data/dev.jsonl --pred out/dev_pred.json
 # 5. Measure latency
 python src/measure_latency.py --model_dir out --input data/dev.jsonl --runs 50
 
-# 6. Predict on test
-python src/predict.py --model_dir out --input data/test.jsonl --output out/test_pred.json
+
 ```
