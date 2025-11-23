@@ -1,6 +1,7 @@
 # PII NER – STT-Based Synthetic Data + Token Classification Model
 
-This repository contains my complete solution for the **IIT Madras – PII NER Assignment (2025)**.
+Output : https://drive.google.com/drive/folders/1E0ET__XSReXianNGXr9llehm_mYSHCOS?usp=drive_link
+Data file : https://drive.google.com/file/d/17Ob_O2GL03-SQ0JHV1LxByBJv0ldTCGc/view?usp=sharing
 
 The goal is to build a lightweight, low-latency Named-Entity Recognizer for detecting PII entities from noisy, STT-style (speech-to-text) utterances, using:
 
